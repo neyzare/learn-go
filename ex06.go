@@ -20,4 +20,8 @@ func main() {
 	perso2.age = 23
 	perso2.adresse = "1 rue napoleons"
 
+	fmt.Println(perso1)
+	fmt.Println(perso2)
+
+
 }
