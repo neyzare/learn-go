@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func serv() {
+func main() {
 	// Gestion de routes
 	http.HandleFunc("/", homeHandler)
 	http.HandleFunc("/about", aboutHandler)
