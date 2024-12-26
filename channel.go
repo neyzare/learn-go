@@ -11,5 +11,5 @@ func run(c chan string, name string) {
 func main() {
 	canal := make(chan string)
 	go run(canal, "lucas")
-	fmt.Println(canal)
+	fmt.Println(<-canal)
 }
