@@ -36,7 +36,7 @@ func main() {
 
 	perso2.name = "nina"
 	perso2.age = 23
-	perso2.adresse = "1 rue napoleons"
+	perso2.adresse = "1 rue napoleonsd"
 
 	rectangle1 := Rectangle{width: 34,height: 53}
 	rectangle2 := Rectangle{width: 543, height: 43}
