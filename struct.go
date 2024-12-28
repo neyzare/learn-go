@@ -7,6 +7,11 @@ type Personnage struct {
 	age int
 	adresse string
 }
+func (p Personnage) great() {
+	p.name = "alice"
+	p.age = 25
+	fmt.Println("Bonjour je m'appelle ", p.name, "et j'ai ", p.age,  "ans")
+}
 
 func main() {
 	var perso1 Personnage
@@ -22,6 +27,7 @@ func main() {
 
 	fmt.Println(perso1)
 	fmt.Println(perso2)
-
+	perso1.great()
 
 }
+
