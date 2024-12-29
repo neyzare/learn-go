@@ -32,7 +32,7 @@ func main() {
 
 	perso1.name = "lucas"
 	perso1.age = 21
-	perso1.adresse = "1 rue de la paix"
+	perso1.adresse = "1 rue de la paixx"
 
 	perso2.name = "nina"
 	perso2.age = 23
