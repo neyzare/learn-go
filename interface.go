@@ -5,7 +5,7 @@ import(
 )
 
 func main() {
-	var r Rectangle = Rectangle{5,10}	
+	var r Rectangle = Rectangle{5,10}
 	
 	fmt.Println(r.area())
 }
